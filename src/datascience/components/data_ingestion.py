@@ -6,7 +6,6 @@ from src.datascience.entity.config_entity import (DataIngestionConfig)
 
 
 ## component-Data Ingestion
-
 class DataIngestion:
     def __init__(self,config:DataIngestionConfig):
         self.config=config

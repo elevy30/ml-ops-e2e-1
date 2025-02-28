@@ -8,9 +8,7 @@ class DataTransformation:
     def __init__(self, config: DataTransformationConfig):
         self.config = config
 
-    
     ## Note: You can add different data transformation techniques such as Scaler, PCA and all
-    
     def train_test_splitting(self):
         data=pd.read_csv(self.config.data_path)
 

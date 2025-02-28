@@ -16,7 +16,6 @@ from src.datascience.utils.common import read_yaml, create_directories,save_json
 #os.environ["MLFLOW_TRACKING_USERNAME"]="krishnaik06"
 #os.environ["MLFLOW_TRACKING_PASSWORD"]="7104284f1bb44ece21e0e2adb4e36a250ae3251f"
 
-
 class ModelEvaluation:
     def __init__(self, config: ModelEvaluationConfig):
         self.config = config
